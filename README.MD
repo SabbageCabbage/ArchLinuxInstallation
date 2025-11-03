@@ -119,7 +119,18 @@ When LXDM appears, choose “XFCE Session” from the bottom-left corner and log
 ## Final Step, Updates and Other tasks given
 
     sudo pacman -Syu
+
 To check for updates
+
+    sudo pacman -S openssh
+    sudo packman -S zsh 
+
+aliases (done by editing the ~/.bashrc file)
+
+    alias cls='clear'
+    alias update='sudo pacman -Syu'
+
+
 
 
 
