@@ -25,3 +25,19 @@ You’ll create two partitions:
    * Type: Linux (number 83)
    * After creating both, move over to Write, type yes, and then Quit.
 
+## Format & Mounting
+
+    mkfs.ext4 /dev/root_partition
+(That's our root partition)
+
+Then make and enable swap:
+
+    mkswap /dev/swap_partition
+    swapon /dev/swap_partition
+
+Mount the root partition 
+
+    mount /dev/root_partition /mnt
+
+## Installing the Base System
+
