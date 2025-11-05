@@ -3,7 +3,7 @@ There are obviously many ways to install the ISO. Personally, I decided to torre
 (A quick way to verify before booting is just to check the signature or checksum before booting which can be found at ✨https://archlinux.org/download/#checksums✨)
 After doing so, the set up process is pretty much similar to setting up any other VM (Do make sure, you've allocated enough ram and storage (I picked the default amount storage that virtual box recommended the first time and found out that it was in fact, not enough...))
 ## Booting into the installer 
-Before being told that I should probably install arch via EUFI, I already started my installation using the BIOS instead so whoopsies on my part anywho,,,
+Before being told that I should probably install arch via UEFI, I already started my installation using the BIOS instead so whoopsies on my part anywho,,,
     
     ip link
 (to set up the internet, since we're on a VM, our wifi is recognized as a wired connection but if connecting using wifi use **iwctl**)
